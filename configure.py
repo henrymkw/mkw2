@@ -408,6 +408,9 @@ config.libs = [
 
             Object(Matching, "geo/BoxColManager.cpp"),
             Object(Matching, "geo/BoxColUnit.cpp"),
+            
+            # TODO: This should be arranged alphabetically
+            Object(NonMatching, "item/ItemDirector.cpp"),
         ],
     },
     {
